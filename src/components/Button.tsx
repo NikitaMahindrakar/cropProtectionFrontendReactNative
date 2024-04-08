@@ -2,6 +2,7 @@ import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
 interface ButtonProps {
   text: string;
+  onPress: () => void;
 }
 
 const Button: React.FC<ButtonProps> = ({text}) => (
